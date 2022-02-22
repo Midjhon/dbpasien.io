@@ -1,0 +1,83 @@
+body {
+	height: 1000;
+	background-color: red;
+	background-size: cover;
+	background-image: url(min.jpg);
+			
+			
+}
+		
+.cf:before,
+.cf:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+.cf:after {
+	clear: both;
+}
+.cf {
+	*zoom: 1;
+}
+		
+.header {
+	background-color: grey;
+	background-image: url(uwu.jpg);
+	background-size: cover;
+	z-index: 1;		
+}
+		
+		.header p {
+			color: white;
+			margin-left: 12%;
+			margin-right: 12%;
+			letter-spacing: 5px;
+			background-color: rgba(128 128 128);
+			background-size: 100px;
+			border: 1px solid lightgreen;
+			text-shadow: 1px 1px 1px black;
+			
+		}
+
+.link {
+	padding: 15px 25px;
+	
+	outline: none;
+	color: #fff;
+	background-color: #04aa6d;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 8px #999;
+}
+.link:hover {
+	background-color: #3e8e41;
+	color: white;
+	text-shadow: 1px 1px 1px white;
+}
+
+.link:Active{
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+.out {
+	margin-top: 15px;
+	margin-left: 78%;
+	padding: 0 5px;
+	font-size: 45px;
+	outline: none;
+	color: red;
+
+	border-radius: 15px;
+	border: none;
+	
+	text-shadow: 0 8px #999;
+	position: absolute;
+}
+.out:hover {
+	
+	color: red;
+	text-shadow: 1px 1px 1px white;
+	transform: translateY(4px);
+}
+

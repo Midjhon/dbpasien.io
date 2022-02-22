@@ -1,0 +1,149 @@
+body {
+	height: 1000;
+	background-color: red;
+	background-size: cover;
+	background-image: url(min.jpg);
+			
+			
+}
+		
+.cf:before,
+.cf:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+.cf:after {
+	clear: both;
+}
+.cf {
+	*zoom: 1;
+}
+		
+.header {
+	background-color: grey;
+	background-image: url(uwu.jpg);
+	background-size: cover;
+	z-index: 1;		
+}
+		
+		.header p {
+			color: white;
+			margin-left: 12%;
+			margin-right: 12%;
+			letter-spacing: 5px;
+			background-color: rgba(128 128 128);
+			background-size: 100px;
+			border: 1px solid lightgreen;
+			text-shadow: 1px 1px 1px black;
+			
+		}
+
+.link {
+	padding: 15px 25px;
+	
+	outline: none;
+	color: #fff;
+	background-color: #04aa6d;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 8px #999;
+}
+.link:hover {
+	background-color: #3e8e41;
+	color: white;
+	text-shadow: 1px 1px 1px white;
+}
+
+.link:Active{
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+.out {
+	margin-top: 15px;
+	margin-left: 78%;
+	padding: 0 5px;
+	font-size: 45px;
+	outline: none;
+	color: red;
+	background-color: blue;
+	border-radius: 15px;
+	border: none;
+	
+	text-shadow: 0 8px #999;
+	position: absolute;
+}
+.out:hover {
+	
+	color: red;
+	text-shadow: 1px 1px 1px white;
+	transform: translateY(4px);
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tambah Data Mahasiswa</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="css/add.css">
+	
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	
+	
+</head>
+<body>
+	
+	
+	<div class="container">
+		<div class="header cf">
+		<h1 class="text-center shadow sm fs-2" style="margin-left: 20%; margin-right: 20%; 
+			margin-top: 10px; margin-bottom:10px; padding: 10px; color:white; 
+			border-radius: 10%; text-shadow: 1px 1px 1px white;">MIDHOSPITAL EMERGENCY</h1>
+		</div>	
+		
+		
+		
+		<div class="content">
+		<h2>Tambah data mahasiswa</h2>
+			<form action="" method="post">  <!--- post : disembunyikan di belakan layar / tidak ada di url 
+													action="" / dikosongkan : agar datanya dikirim ke halaman ini sendiri (tambah.php)	-->
+				<ul>
+					<li>
+						<label for="no_rm">No.RM : </label>
+						<input type="text" name="no_rm" id="no_rm" required>	<!---- required: harus di isi gaboleh kosong ---->
+					</li>
+					<li>
+						<label for="nama">Nama : </label>
+						<input type="text" name="nama" id="nama">
+					</li>
+					<li>
+						<label for="tgl_lahir">Tanggal Lahir : </label>
+						<input type="text" name="tgl_lahir" id="tgl_lahir">	
+					</li>
+					<li>
+						<label for="tmpt_lahir">Tempat Lahir : </label>
+						<input type="text" name="tmpt_lahir" id="tmpt_lahir">	
+					</li>
+					<li>
+						<label for="alamat">Alamat : </label>
+						<input type="text" name="alamat" id="alamat">	
+					</li>
+					<li>
+						<label for="no_tlp">No.Telepon : </label>
+						<input type="text" name="no_tlp" id="no_tlp">	
+					</li>
+					
+					<li>
+						<button type="submit" name="submit">Tambah data!</button>
+					</li>
+					
+				</ul>
+				
+			</form>
+		</div>
+	</div>	
+</body>
+</html>

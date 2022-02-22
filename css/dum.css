@@ -1,0 +1,60 @@
+body {
+	background-color:grey;
+	background-image: url(../img/bg2.jpg);
+	background-size: cover;
+}
+
+.container {
+	padding: 10px;
+	
+	
+	/* jika ingin membuat ketengah pastikan widthnya atau atur width nya */
+	margin: auto;
+	width:23%; 
+	/* ------------------ */
+	
+	margin-top: 10rem;
+	box-shadow: -1px -1px  #999, 10px 10px 8px #999;
+	border-radius: 15px;
+	background-color: white;
+	
+}
+.reg {
+	margin-bottom:10px;
+	
+}
+.reg h1 {
+	font-size:30px;
+	font-weight: bold;
+	margin-left: 20%;
+	letter-spacing: 5px;
+}
+.input {
+	margin-left: 30px;
+	padding:10px;
+	line-height: 25px;
+}
+.regis {
+	
+	box-shadow: 0 5px 4px #999;
+	font-family: times new roman;
+	font-size: 15px;
+	padding: 5px;
+	border-radius: 15px;
+	margin-left: 2px;
+}
+.regis:hover {
+	
+	transform: translateY(3px);
+	background-color: grey;
+	color: white;
+}
+#username{
+	margin-left:10px;
+}
+#password{
+	margin-left:12px;
+}
+#password2{
+	margin-left:12px;
+}

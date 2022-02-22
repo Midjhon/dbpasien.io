@@ -1,0 +1,13 @@
+// live search
+// use AJAX ('Asynchronous Javascript And Xml') : mengirim suatu elemen tertentu / tidak semua halaman
+// contoh : saat buka fb di browser laptop, ajax kurang lebih seperti ngirim pesan chat ke teman
+// Asynchronous : Tidak singkron
+// XMLHttpRequest() -> mengelola request use AJAX
+// harus tau javascript dasar, DOM(Documen Object Model), 
+
+// Penerapannya :
+// buka "index.php" di pertemuan17
+// include js ke index tersebut di tag body buat paling bawah
+// lalu tandai dengan id di form "cari" -> id="keyword" di tag input dan id="tombol-cari" di button
+// kemudian tandai tabel mahasiswanya "buat div dgn id="container" untuk membungkus tabel
+	//-> 
